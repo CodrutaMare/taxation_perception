@@ -13,6 +13,8 @@ a Romanian database and can be downloaded from https://github.com/stefanacioban/
 
 Trustworthiness in the fiscal system is a key issue, impacting the way taxpayers act in relation to paying or defrauding. When developing general public policies and specific ones for combating tax fraud, governments are more attentive to public opinion. Using survey data, we assessed word frequencies, sentiments and attitudes to build a global picture over taxpayers’ perceptions and how they impact trust in the taxation system. Natural language processing along with other statistical and machine learning tools emphasize that taxpayers that do not trust the fiscal system use more negative words with lower frequencies and less diverse.
 
+The methodology increased in complexity as it was gradually developed from exploratory analysis, consisting in topic modelling of text corpora, to a bi-variate analysis of the documents on tax perception against the trustworthiness indicator of the fiscal system of Romania, and to a multi-variate predictive model using the sentiment expressed within the text corpora alongside other indicators to predict the measure of trust in the fiscal system. 
+
 By computing the mode for the binary sentiment indexes, we were able to generate an overall polarity score for each response. This measure of sentiment expressed from each taxpayer’s response together with the variable representing their opinion about the fiscal system were used to further train and test different statistical, ML and DL-based models for the prediction of the dependent variable, the binary measure of trust in the Romanian fiscal system.
 
 Work that has been up to now is published in the following papers:
