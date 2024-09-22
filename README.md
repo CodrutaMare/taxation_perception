@@ -16,7 +16,7 @@ The methodology increased in complexity as it was gradually developed from explo
 
 
 ## Studies
-Our experiments that have been developed up to now is published in the following papers:
+Our experiments that have been developed up to now are published in the following papers:
 ### :one: Modelling taxpayers’ behaviour based on prediction of trust using sentiment analysis  
 Check out the output of this analysis in the [sent_analysis_814_database](blob/main/sent_analysis_814_database.ipynb) notebook.  
 ### Cite
