@@ -27,7 +27,7 @@ _Coita, I. F., Belbe, Ș., Mare, C., Osterrieder, J., & Hopp, C. (2023). Modelli
 Check out the output of this analysis in the [sent_analysis_704_database](blob/main/sent_analysis_704_database.ipynb) notebook.  
 ### Cite
 If you would like to refer to it in publications or other scientific works, please use the following:  
-_Coita, I. F., Cioban, Ș., & Codruța, M. (2022). Is Trust a Valid Indicator of Tax Compliance Behaviour? A Study on Taxpayers’ Public Perception Using Sentiment Analysis Tools. In Digitalization and Big Data for Resilience and Economic Intelligence: 4th International Conference on Economics and Social Sciences, ICESS 2021, Bucharest, Romania (pp. 99-108). Cham: Springer International Publishing._  
+_Coita, I. F., Cioban, Ș., & Mare, C. (2022). Is Trust a Valid Indicator of Tax Compliance Behaviour? A Study on Taxpayers’ Public Perception Using Sentiment Analysis Tools. In Digitalization and Big Data for Resilience and Economic Intelligence: 4th International Conference on Economics and Social Sciences, ICESS 2021, Bucharest, Romania (pp. 99-108). Cham: Springer International Publishing._  
 
 ## Licence
 If you would like to use these results or any of the visualizations or data presented, you are free to do so under an [MIT license](blob/main/LICENSE). 
