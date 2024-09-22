@@ -1,28 +1,34 @@
 # Taxation Perception
-A sentiment analysis on how taxation is perceived in Romania.
-We've questioned 814 Romanian people on how they perceive the national tax system. We've analyzed their reponses to
-three questions:
-1. What displeases you about the Romanian tax system ?
-2. If you were the Minister of Public Finance, what would you change about the Romanian tax system? 
+
+A sentiment analysis on how taxation is perceived in Romania.  
+We've questioned Romanian people on how they perceive the national tax system. We've analyzed their responses to
+four questions:  
+1. What displeases you about the Romanian tax system ?  
+2. If you were the Minister of Public Finance, what would you change about the Romanian tax system?  
 3. In your opinion, what does the current tax system offer you?  
 4. What will motivate you to trust the fiscal system?
 
-Based on the responses, we've computed word frequencies to deliver a word cloud of the most frequent words for each
-question and we've computed sentiment scores based on a pre-trained sentiment analysis BERT model, which was trained on
-a Romanian database and can be downloaded from https://github.com/stefanacioban/romanian_sentiment_predictor.
+Based on the responses, we've computed sentiment scores based on a pre-trained sentiment analysis BERT model to build a global picture over taxpayers’ perceptions and how they impact trust in the taxation system. The sentiment analysis model was developed within:  
+_Cioban, Ș. (2021). Cross-Domain Sentiment Analysis of the Natural Romanian Language. In International Conference on Digital Economy (pp. 172-180). Cham: Springer International Publishing._  
 
-Trustworthiness in the fiscal system is a key issue, impacting the way taxpayers act in relation to paying or defrauding. When developing general public policies and specific ones for combating tax fraud, governments are more attentive to public opinion. Using survey data, we assessed word frequencies, sentiments and attitudes to build a global picture over taxpayers’ perceptions and how they impact trust in the taxation system. Natural language processing along with other statistical and machine learning tools emphasize that taxpayers that do not trust the fiscal system use more negative words with lower frequencies and less diverse.
 
 The methodology increased in complexity as it was gradually developed from exploratory analysis, consisting in topic modelling of text corpora, to a bi-variate analysis of the documents on tax perception against the trustworthiness indicator of the fiscal system of Romania, and to a multi-variate predictive model using the sentiment expressed within the text corpora alongside other indicators to predict the measure of trust in the fiscal system. 
 
-By computing the mode for the binary sentiment indexes, we were able to generate an overall polarity score for each response. This measure of sentiment expressed from each taxpayer’s response together with the variable representing their opinion about the fiscal system were used to further train and test different statistical, ML and DL-based models for the prediction of the dependent variable, the binary measure of trust in the Romanian fiscal system.
 
-Work that has been up to now is published in the following papers:
-Coita, I., Mare, C. (2021). The Utility of Neural Model in Predicting Tax Avoidance Behavior, presented and accepted to be published in the conference: Intelligent Decision Technologies 2021 - Proceedings of the 13th KES (KES-IDT-21), which was held on June 12 – 14, 2021 – virtual conference and accepted for publication in the Springer Volume of the KES Smart Innovation Systems and Technologies series, indexing in Scopus and Thomson-Reuters (CPCI) and the Web of Science.
+## Studies
+Our experiments that have been developed up to now is published in the following papers:
+### :one: Modelling taxpayers’ behaviour based on prediction of trust using sentiment analysis  
+Fiscal systems depend on taxpayer's behaviour in terms of their willingness to comply or engage in fraud, deeply rooted in trustworthiness. To gain insights into taxpayers' perceptions and their influence on trust within taxation system, we use survey data to analyse word frequencies, sentiments, attitudes. Our approach utilizes natural language processing in conjunction with machine learning techniques. We highlight a notable correlation: taxpayers who lack trust in fiscal system tend to employ a higher frequency of negative words and exhibit limited word diversity in their expressions. The presence of negative sentiments may potentially foster fraudulent behaviours in the future.  
+Check out the output of this analysis in the [sent_analysis_814_database](blob/main/sent_analysis_814_database.ipynb) notebook.  
 
-Coita, I., Cioban, S., Mare, C. (2021a). Mining Tax-Payers Opinions in Predicting the Trustworthiness of the Fiscal System, under review to The Singapore Economic Review, ISSN (print): 0217-5908, ISSN (online): 1793-6837.
+### :two: Is Trust a Valid Indicator of Tax Compliance Behaviour? A Study on Taxpayers’ Public Perception Using Sentiment Analysis Tools  
+Compliant behaviour in the field of taxes has a profound impact on the economic and social field. Tackling the tax evasion phenomenon is not an easy thing to do. That is why there are several public institutions that are preoccupied with discovering and punishing it. The discovery of the actions that rely on the sphere of tax evasion can come through the Tax Authority which in turn is able to punish it by a fine. Fraudsters in the tax field are using more sophisticated techniques and technological tools that make the discovery very difficult. Identifying and combating tax evasion is a complex process and knowledge from various fields is needed. Our study tries to identify those variables relating to taxpayers’ behaviour that could be tackled by the Tax Authority in order to control this phenomenon. We achieved this objective by the use of NLP algorithms for analysing free speech answers on an online survey. In this sense, our research hypothesis is that trustworthiness in the State is positively correlated with an optimistic perception of the fiscal system. We analysed what is the structure of perception and which are the words that are most frequent. Results are in accordance with the literature review of the factors that impact compliant behaviour and confirm our hypothesis. The utility of results relies on the fact that in the context of smart governance, and Public Authorities should look at citizens’ perception of tax policies and services in order to adapt its actions for an efficient collection of revenues to the State's budget.   
+Check out the output of this analysis in the [sent_analysis_704_database](blob/main/sent_analysis_704_database.ipynb) notebook.  
 
-Coita, I., Cioban S., Mare, C. (2021b). Is Trust a Valid Indicator of Tax Compliance Behaviour? A Study on Taxpayers’ Public Perception Using Sentiment Analysis Tools, accepted to the conference: The 4th International Conference on Economics and Social Sciences which was held in June 10th – 11th, 2021 – Bucharest, Romania and accepted for publication in the Sciendo (De Gruyter) in a Conference Proceedings Volume indexed Web of Science (CPCI).
+## Licence
+If you would like to use these results or any of the visualizations or data presented, you are free to do so under an [MIT license](blob/main/LICENSE). 
 
-
-
+## Cite
+If you would like to refer to it in publications or other scientific works, please use the following:  
+_Coita, I. F., Cioban, Ș., & Codruța, M. (2022). Is Trust a Valid Indicator of Tax Compliance Behaviour? A Study on Taxpayers’ Public Perception Using Sentiment Analysis Tools. In Digitalization and Big Data for Resilience and Economic Intelligence: 4th International Conference on Economics and Social Sciences, ICESS 2021, Bucharest, Romania (pp. 99-108). Cham: Springer International Publishing._  
+_Coita, I. F., Belbe, Ș., Mare, C., Osterrieder, J., & Hopp, C. (2023). Modelling taxpayers’ behaviour based on prediction of trust using sentiment analysis. Finance Research Letters, 58, 104549._  
